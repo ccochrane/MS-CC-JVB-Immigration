@@ -103,7 +103,7 @@ def hansard_to_sentences(hansard, tokenizer, remove_stopwords=True ):
 
 
 
-for x in range(0,107):
+for x in range(0,106):
 
     #What year is being processed
     startYear = 2013-x
