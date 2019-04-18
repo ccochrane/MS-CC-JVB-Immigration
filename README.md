@@ -1,6 +1,8 @@
 # MS-CC-JVB-Immigration
 An analysis of parliamentary discourse re: immigrants/immigration
 
+The raw data are available at: https://www.lipad.ca/data/
+
 (1) queryScript.py - script for extracting LiPaD data from MySQL.
 
 (2) yearByYearbyPartyModelRunConservative.py - script for training word2vec on 11-year moving subsets of Conservative speeches in LiPaD data.
