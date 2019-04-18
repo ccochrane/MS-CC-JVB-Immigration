@@ -103,10 +103,10 @@ def hansard_to_sentences(hansard, tokenizer, remove_stopwords=True ):
 
 
 
-for x in range(0,49):
+for x in range(0,107):
 
     #What year is being processed
-    startYear = 1956-x
+    startYear = 2013-x
     minYear = startYear-5
     maxYear = startYear+5
     #take 5 Hansard Speeches from 5 years before/after startYear
