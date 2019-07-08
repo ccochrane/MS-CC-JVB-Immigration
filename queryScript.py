@@ -18,7 +18,7 @@ import sqlalchemy as sqa
 import pandas as pd
 
 #From Tanya Whyte
-engine = sqa.create_engine('postgresql://postgres:July11867@localhost:5432/lipad')
+engine = sqa.create_engine('')
 sql = sqa.text(' '.join((
     "SELECT *",
     "FROM dilipadsite_basehansard",
